@@ -7,9 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0EDAA9CD228184EC00633DBA /* Recorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EDAA9CC228184EC00633DBA /* Recorder.swift */; };
 		0EDECFA0227D28A8000B9493 /* HPVoicePulse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EDECF96227D28A8000B9493 /* HPVoicePulse.framework */; };
 		0EDECFA5227D28A8000B9493 /* HPVoicePulseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EDECFA4227D28A8000B9493 /* HPVoicePulseTests.swift */; };
 		0EDECFA7227D28A8000B9493 /* HPVoicePulse.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EDECF99227D28A8000B9493 /* HPVoicePulse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0EDECFB7227D2972000B9493 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EDECFB6227D2972000B9493 /* AppDelegate.swift */; };
+		0EDECFB9227D2972000B9493 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EDECFB8227D2972000B9493 /* ViewController.swift */; };
+		0EDECFBC227D2972000B9493 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EDECFBA227D2972000B9493 /* Main.storyboard */; };
+		0EDECFBE227D2974000B9493 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0EDECFBD227D2974000B9493 /* Assets.xcassets */; };
+		0EDECFC1227D2974000B9493 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EDECFBF227D2974000B9493 /* LaunchScreen.storyboard */; };
+		0EDECFC7227D29CC000B9493 /* PulseLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EDECFC6227D29CC000B9493 /* PulseLayer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,12 +30,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0EDAA9CC228184EC00633DBA /* Recorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recorder.swift; sourceTree = "<group>"; };
 		0EDECF96227D28A8000B9493 /* HPVoicePulse.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HPVoicePulse.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EDECF99227D28A8000B9493 /* HPVoicePulse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HPVoicePulse.h; sourceTree = "<group>"; };
 		0EDECF9A227D28A8000B9493 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0EDECF9F227D28A8000B9493 /* HPVoicePulseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HPVoicePulseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EDECFA4227D28A8000B9493 /* HPVoicePulseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HPVoicePulseTests.swift; sourceTree = "<group>"; };
 		0EDECFA6227D28A8000B9493 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0EDECFB4227D2972000B9493 /* HPVoicePulseExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HPVoicePulseExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0EDECFB6227D2972000B9493 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0EDECFB8227D2972000B9493 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0EDECFBB227D2972000B9493 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0EDECFBD227D2974000B9493 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0EDECFC0227D2974000B9493 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0EDECFC2227D2974000B9493 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0EDECFC6227D29CC000B9493 /* PulseLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PulseLayer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +63,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		0EDECFB1227D2972000B9493 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -55,6 +78,7 @@
 			children = (
 				0EDECF98227D28A8000B9493 /* HPVoicePulse */,
 				0EDECFA3227D28A8000B9493 /* HPVoicePulseTests */,
+				0EDECFB5227D2972000B9493 /* HPVoicePulseExample */,
 				0EDECF97227D28A8000B9493 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -64,6 +88,7 @@
 			children = (
 				0EDECF96227D28A8000B9493 /* HPVoicePulse.framework */,
 				0EDECF9F227D28A8000B9493 /* HPVoicePulseTests.xctest */,
+				0EDECFB4227D2972000B9493 /* HPVoicePulseExample.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -84,6 +109,21 @@
 				0EDECFA6227D28A8000B9493 /* Info.plist */,
 			);
 			path = HPVoicePulseTests;
+			sourceTree = "<group>";
+		};
+		0EDECFB5227D2972000B9493 /* HPVoicePulseExample */ = {
+			isa = PBXGroup;
+			children = (
+				0EDECFB6227D2972000B9493 /* AppDelegate.swift */,
+				0EDECFB8227D2972000B9493 /* ViewController.swift */,
+				0EDECFBA227D2972000B9493 /* Main.storyboard */,
+				0EDECFBD227D2974000B9493 /* Assets.xcassets */,
+				0EDECFBF227D2974000B9493 /* LaunchScreen.storyboard */,
+				0EDECFC2227D2974000B9493 /* Info.plist */,
+				0EDECFC6227D29CC000B9493 /* PulseLayer.swift */,
+				0EDAA9CC228184EC00633DBA /* Recorder.swift */,
+			);
+			path = HPVoicePulseExample;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,6 +176,23 @@
 			productReference = 0EDECF9F227D28A8000B9493 /* HPVoicePulseTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		0EDECFB3227D2972000B9493 /* HPVoicePulseExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0EDECFC5227D2974000B9493 /* Build configuration list for PBXNativeTarget "HPVoicePulseExample" */;
+			buildPhases = (
+				0EDECFB0227D2972000B9493 /* Sources */,
+				0EDECFB1227D2972000B9493 /* Frameworks */,
+				0EDECFB2227D2972000B9493 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HPVoicePulseExample;
+			productName = HPVoicePulseExample;
+			productReference = 0EDECFB4227D2972000B9493 /* HPVoicePulseExample.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -152,6 +209,9 @@
 					0EDECF9E227D28A8000B9493 = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
+					0EDECFB3227D2972000B9493 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
 				};
 			};
 			buildConfigurationList = 0EDECF90227D28A8000B9493 /* Build configuration list for PBXProject "HPVoicePulse" */;
@@ -160,6 +220,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 0EDECF8C227D28A8000B9493;
 			productRefGroup = 0EDECF97227D28A8000B9493 /* Products */;
@@ -168,6 +229,7 @@
 			targets = (
 				0EDECF95227D28A8000B9493 /* HPVoicePulse */,
 				0EDECF9E227D28A8000B9493 /* HPVoicePulseTests */,
+				0EDECFB3227D2972000B9493 /* HPVoicePulseExample */,
 			);
 		};
 /* End PBXProject section */
@@ -184,6 +246,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0EDECFB2227D2972000B9493 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EDECFC1227D2974000B9493 /* LaunchScreen.storyboard in Resources */,
+				0EDECFBE227D2974000B9493 /* Assets.xcassets in Resources */,
+				0EDECFBC227D2972000B9493 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -205,6 +277,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		0EDECFB0227D2972000B9493 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EDECFB9227D2972000B9493 /* ViewController.swift in Sources */,
+				0EDECFB7227D2972000B9493 /* AppDelegate.swift in Sources */,
+				0EDECFC7227D29CC000B9493 /* PulseLayer.swift in Sources */,
+				0EDAA9CD228184EC00633DBA /* Recorder.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -214,6 +297,25 @@
 			targetProxy = 0EDECFA1227D28A8000B9493 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0EDECFBA227D2972000B9493 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0EDECFBB227D2972000B9493 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0EDECFBF227D2974000B9493 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0EDECFC0227D2974000B9493 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		0EDECFA8227D28A8000B9493 /* Debug */ = {
@@ -268,7 +370,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -326,7 +428,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -420,6 +522,40 @@
 			};
 			name = Release;
 		};
+		0EDECFC3227D2974000B9493 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HPVoicePulseExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.quanghoang.HPVoicePulseExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0EDECFC4227D2974000B9493 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HPVoicePulseExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.quanghoang.HPVoicePulseExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -446,6 +582,15 @@
 			buildConfigurations = (
 				0EDECFAE227D28A8000B9493 /* Debug */,
 				0EDECFAF227D28A8000B9493 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0EDECFC5227D2974000B9493 /* Build configuration list for PBXNativeTarget "HPVoicePulseExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0EDECFC3227D2974000B9493 /* Debug */,
+				0EDECFC4227D2974000B9493 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
